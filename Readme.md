@@ -7,10 +7,15 @@ Atividades:
 2 Listas  - Peso 0.1
 
 ---------------------------------------------------------------
+Ferramentas para modelagem ER:
+* https://erdplus.com
+* http://www.terraer.com.br/
+* https://diagrams.net/
 
+---------------------------------------------------------------
 Referencia:
 
-Heuser, Carlos A.
+**Heuser, Carlos A.**
 
 Acessar em https://app.minhabiblioteca.com.br/books/9788577804528
 
