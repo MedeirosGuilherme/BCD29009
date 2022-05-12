@@ -13,6 +13,21 @@ Ferramentas para modelagem ER:
 * https://diagrams.net/
 
 ---------------------------------------------------------------
+Conexão do banco:
+
+host: ampto.sj.ifsc.edu.br
+
+port: 33006
+
+database: lab01guilherme
+
+user: guilherme
+
+password: bcd 1234
+
+
+---------------------------------------------------------------
+
 Referencia:
 
 **Heuser, Carlos A.**
