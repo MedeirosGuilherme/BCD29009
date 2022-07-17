@@ -22,3 +22,4 @@ Em resumo:
 | ×  | Produto Cartesiano | professor × curso           | Seleciona todas as tuplas, independente de terem o mesmo nome                  |
 | ▷◁ | Junção             | professor ▷◁ curso          | Seleciona todas as tuplas que possuem o mesmo valor para colunas de mesmo nome |
 
+

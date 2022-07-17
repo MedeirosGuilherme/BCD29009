@@ -65,3 +65,39 @@ Em resumo:
 | ×  | Produto Cartesiano | professor × curso           | Seleciona todas as tuplas, independente de terem o mesmo nome                  |
 | ▷◁ | Junção             | professor ▷◁ curso          | Seleciona todas as tuplas que possuem o mesmo valor para colunas de mesmo nome |
 
+## Linguagem SQL
+
+### Instruções:
+
+* CREATE TABLE
+
+Cria uma tabela, uma entidade:
+```SQL
+CREATE TABLE Disciplina(
+codigo INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+nome TEXT NOT NULL,
+cargaHoraria INTEGER NOT NULL);
+```
+
+* INSERT:
+
+```SQL
+INSERT INTO Pessoa (nome) VALUES ('Juca');
+```
+
+* ALTER TABLE:
+
+```SQL
+ALTER TABLE Funcionarios ADD situacao TEXT;
+-- No SQLite
+PRAGMA foreign_keys=off;
+BEGIN TRANSACTION;
+ALTER TABLE Funcionario RENAME TO _funcionario_antigo;
+CREATE TABLE ....
+INSERT INTO Funcionario (...) SELECT (...) from _funcionario_antigo;
+COMMIT;
+PRAGMA foreign_keys=on;
+```
+
+
+
